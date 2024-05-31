@@ -9,7 +9,7 @@ This data analysis project aims to provide insights into the EV population growt
 ### Data Sources
 
 Open Source DATA. you can download it from Kaggle or any Government database 
-#### Kaggle [⏯️]([https://www.kaggle.com/](https://www.kaggle.com/fabngan))
+#### Kaggle [⏯️](https://www.kaggle.com/](https://www.kaggle.com/fabngan)
 #### US Gov. Database [⏯️](https://data.gov/)
 
 
