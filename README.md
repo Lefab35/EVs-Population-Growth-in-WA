@@ -12,4 +12,10 @@ Open Source DATA. you can download it from Kaggle or any Government database
 #### Kaggle [⏯️](https://www.kaggle.com/)
 #### US Gov. Database [⏯️](https://data.gov/)
 
+
 ### Tools
+-  MYSQL Server ( Data Cleaning & Analysis
+#### MYSQL can be downloaded here [⏯️](https://www.mysql.com/)
+     
+-  Power BI (Visual & Report)
+#### Power BI can be downloaded here [⏯️](https://www.microsoft.com/en-us/power-platform/products/power-bi/landing/free-account?ef_id=_k_055210d52cbc1859b4b5768f14a361e4_k_&OCID=AIDcmm80atqgos_SEM__k_055210d52cbc1859b4b5768f14a361e4_k_&msclkid=055210d52cbc1859b4b5768f14a361e4)
