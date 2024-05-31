@@ -41,7 +41,7 @@ GROUP BY model_year
 ORDER BY model_year DESC;
 
 
--- >> 2. EV's Distribution by cities ? <<--
+-- >> 2. EV's Distribution by cities? <<--
 SELECT city, SUM(vin) AS ev_pop
 FROM (
     SELECT *
@@ -116,7 +116,7 @@ HAVING msrp_avg > 0
 ORDER BY msrp_avg DESC
 LIMIT 10;
 
--- >><> 7. Total EV's registered in the state? <><<--
+-- >><> 7. Total EVs registered in the state? <><<--
 SELECT COUNT(*) AS total_ev
 FROM (
 	SELECT *
@@ -143,7 +143,7 @@ ORDER BY msrp_avg DESC
 LIMIT 10;
 
 
--- >><><> 9. What're the EVs electric range? <><><<--
+-- >><><> 9. What's the EV electric range? <><><<--
 SELECT MIN(electric_range) AS sortest_range, MAX(electric_range) AS longest_range
 FROM (
 	SELECT * FROM ev1
@@ -175,7 +175,7 @@ ORDER BY battery_range;
 
 SELECT 
 	CASE
-		WHEN electric_range >= 6 AND electric_range <= 99 THEN 'Low Battery Range'
+	WHEN electric_range >= 6 AND electric_range <= 99 THEN 'Low Battery Range'
         WHEN electric_range >= 100 AND electric_range <= 199 THEN 'Medium Battery Range'
         WHEN electric_range >= 200  AND electric_range <= 299 THEN 'Long Battery Range'
         ELSE 'Super Battery'
@@ -194,7 +194,7 @@ GROUP BY battery_range, cafv_eligibility
 ORDER BY battery_range;
 
 
--- <<<>>> 10. What're the list of all EV Models located in king county with electric_range is greather than 200 miles <<<>>> --
+-- <<<>>> 10. What's the list of all EV Models located in King County with electric_range is greater than 200 miles <<<>>> --
 
 SELECT model, county, COUNT(model) AS count
 FROM (
